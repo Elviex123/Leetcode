@@ -13,4 +13,4 @@ public:
             else fast = fast ->next, slow = slow -> next;
         return true;
     }
-}
+};
