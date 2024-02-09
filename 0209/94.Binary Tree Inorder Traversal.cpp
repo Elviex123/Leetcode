@@ -18,3 +18,11 @@ public:
     }
     void helper(TreeNode* root, vector<int>& result)
     {
+         if(root != nullptr)
+        {
+            helper(root -> left, result);
+            result.push_back(root -> val);
+            helper(root -> right, result);
+        }
+    }
+};
