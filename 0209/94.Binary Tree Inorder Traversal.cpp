@@ -9,3 +9,12 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+ class Solution {
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
+        vector<int> result;
+        helper(root, result);
+        return result;
+    }
+    void helper(TreeNode* root, vector<int>& result)
+    {
