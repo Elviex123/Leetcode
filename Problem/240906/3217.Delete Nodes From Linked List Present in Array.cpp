@@ -40,8 +40,7 @@ No node has value 5.
 8. If it is not, move the `current` pointer to the next node in the list.
 9. Return the updated head of the list.
 
-### 中文翻譯：
-
+### 中
 1. 初始化一個集合 `valuesToRemove`，並用 `nums` 數組中的值來填充這個集合。
 2. 當鏈表的頭節點不為空且頭節點的值存在於 `valuesToRemove` 中時：
 3. 將頭節點移動到 `head.next`。
