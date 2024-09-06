@@ -34,8 +34,7 @@ No node has value 5.
 2. While the head of the linked list is not null and the head's value is present in `valuesToRemove`:
 3. Move head to `head.next`.
 ull, return null since all nodes erating from the head of the modified list:
-6. For each node `current`, check if the value of the next node (`current.next`) is in the `valuesToRemove` set.
-the next node in the list.
+6. For each node `current`, check if 
 
 1. 初始化一個集合 `valuesToRemove`，並用 `nums` 數組中的值來填充這個集合。
 2. 當鏈表的頭節點不為空且頭節點的值存在於 `valuesToRemove` 中時：
