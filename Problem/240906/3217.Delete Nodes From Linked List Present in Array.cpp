@@ -38,7 +38,6 @@ No node has value 5.
 6. For each node `current`, check if the value of the next node (`current.next`) is in the `valuesToRemove` set.
 7. If it is, skip the next node by updating `current.next` to `current.next.next`.
 8. If it is not, move the `current` pointer to the next node in the list.
-9. Return the updated head of the list.
 
 1. 初始化一個集合 `valuesToRemove`，並用 `nums` 數組中的值來填充這個集合。
 2. 當鏈表的頭節點不為空且頭節點的值存在於 `valuesToRemove` 中時：
