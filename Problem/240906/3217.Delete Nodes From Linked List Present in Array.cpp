@@ -33,8 +33,7 @@ No node has value 5.
 1. Initialize a set `valuesToRemove` and populate it with the values of the `nums` array.
 2. While the head of the linked list is not null and the head's value is present in `valuesToRemove`:
 3. Move head to `head.next`.
-ull, return null since all nodes have been removed.
-5. Start iterating from the head of the modified list:
+ull, return null since all nodes erating from the head of the modified list:
 6. For each node `current`, check if the value of the next node (`current.next`) is in the `valuesToRemove` set.
 the next node in the list.
 
